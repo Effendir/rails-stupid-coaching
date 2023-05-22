@@ -1,0 +1,13 @@
+<h1>Questions#answer</h1>
+<p>Find me in app/views/questions/answser.html.erb</p>
+
+<div class="d-flex justify-content-between">
+  <div class="container p-5 d-flex flex-column" style="max-width : 700px;">
+    <div class="card mb-1">
+    <div class="card-body">
+        <p class="bold text-center"><%= @answer %></p>
+    </div>
+    </div>
+    <button type="button" class="btn btn-lg btn-success mt-1"><%= link_to "Ask another question", ask_path, class: "text-decoration-none text-white"%></button>
+  </div>
+</div>
